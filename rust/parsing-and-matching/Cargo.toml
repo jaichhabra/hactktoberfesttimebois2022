@@ -1,0 +1,11 @@
+cargo-features = ['edition2021']
+
+[package]
+name = "day1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.42"
+fstrings = "0.2.3"
+itertools = "0.10.1"
