@@ -41,7 +41,7 @@ def main():
                     if arr[i] < arr[j]:
                         count += 1
                     else:
-                        break
+                        pass
                 if count == i:
                     ans += 1
 
