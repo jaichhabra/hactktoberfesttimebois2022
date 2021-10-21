@@ -6,7 +6,7 @@ int e, x, f(0), r(-1), t(-1);
 const int v = 5;
 
 void init(int visited[]){
-    for(int i = 0; i < v; i++){
+    for(int i = 0; i < v; i++){xxxxxxx
         visited[i] = 0;
     }
 }
