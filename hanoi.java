@@ -1,30 +1,27 @@
-// JAVA recursive function to
-// solve tower of hanoi puzzle
-import java.util.*;
-import java.io.*;
-import java.math.*;
-class GFG
-{
-static void towerOfHanoi(int n, char from_rod,
-					char to_rod, char aux_rod)
-{
-	if (n == 1)
-	{
-		System.out.println("Move disk 1 from rod "+
-						from_rod+" to rod "+to_rod);
-		return;
-	}
-	towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);
-	System.out.println("Move disk "+ n + " from rod " +
-					from_rod +" to rod " + to_rod );
-	towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
-}
+print("Karthikeyan Rathore Developer|Love Hacking and Video editing.")
 
-// Driver code
-public static void main(String args[])
-{
-	int n = 4; // Number of disks
-	towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
-}
-}
+print("Daksh Jain Developer| Technical Consultant and an ardent fan of Real Madrid :) DakshJn")
 
+print("Dakshita agarwal Developer| Technical writer and Bug bounty hunter")
+
+print("venkatesh pensalwar Developer| Love to learn new things and share knowledge. venkateshpensalwar")
+
+print("Aniket Chowdhury Developer| Machine Learning Analyst aniketbiprojit")
+
+print("Pulkit Developer| Machine Learning Analyst pulkitthakran")
+
+print("Archit Developer| Machine Learning Analyst archit0712")
+
+print("Alok Tripathi | Competitive Programmer |Tripathi-Alok")
+
+print("Vedic Developer| Machine Learning Analyst Vedic31")
+
+print("Utsav Kansal Developer| Machine Learning Analyst UtsavKansal")
+
+print("Vitesh Developer| Machine Learning Analyst viteshmalhotra2608")
+
+print("Gautam Ashish Goyal Developer| Machine Learning Analyst gautam")
+
+print("Student| Learning a lot day by day zomsik")
+
+print("Sunisth Kumar Developer | Student Researcher ksunisth")
