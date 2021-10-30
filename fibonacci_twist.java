@@ -38,4 +38,4 @@ class MyClass {
 	    }
 	    return true;
 	}
-}
+System.out.print("Success")
